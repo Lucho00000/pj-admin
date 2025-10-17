@@ -28,7 +28,7 @@ Antes de ejecutar el proyecto, asegurarse de tener instalado:
 - **Docker**
 
 ## Estructura del proyecto
-
+```
 pj-admin/
 ├─ README.md
 ├─ .gitignore
@@ -44,7 +44,7 @@ pj-admin/
 ├─ src/main/java/
 ├─ src/main/resources/application.properties
 └─ Dockerfile
-
+```
 ---
 
 ## Ejecución en entorno local
