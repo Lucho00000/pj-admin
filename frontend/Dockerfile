@@ -1,19 +1,18 @@
-# ---------- Etapa de build ----------
+
 FROM node:20 AS build
 WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
-# Generamos build de producción
+
 RUN npm run build
 
-# ---------- Etapa de runtime ----------
+
 FROM nginx:alpine
-# Copiamos el build estático
+
 COPY --from=build /app/dist /usr/share/nginx/html
 
-# SPA fallback: redirigir todo a index.html (si usás Router)
-# Creamos un nginx.conf minimal con fallback
+
 RUN printf 'server {\n\
   listen 80;\n\
   server_name _;\n\
