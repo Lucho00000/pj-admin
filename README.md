@@ -3,7 +3,7 @@
 Sistema web de administración del Poder Judicial, Programador/a de Aplicaciones Informáticas Junior MF8 .  
 Permite gestionar edificios, dependencias, empleados y traslados, con frontend en React y backend en Spring Boot.
 
-# Tecnologías utilizadas
+## Tecnologías utilizadas:
 
 # Frontend
 - Vite
