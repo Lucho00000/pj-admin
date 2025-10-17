@@ -54,12 +54,14 @@ pj-admin/
 ```bash
 git clone https://github.com/tu-usuario/pj-admin.git
 cd pj-admin
-´´´
+```
 
 
 ### 2. Ejecutar el backend
+```bash
 cd backend
 .\mvnw.cmd spring-boot:run
+```
 
 El backend quedará disponible en:
 http://localhost:8080
@@ -67,9 +69,11 @@ Health check:
 http://localhost:8080/api/health
 
 ### 3. Ejecutar el frontend, en una nueva terminal:
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 El frontend quedará disponible en:
 http://localhost:5173
