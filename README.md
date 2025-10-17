@@ -97,8 +97,10 @@ server.port=8080
 ---
 
 ## Ejecución con Docker
+Ejecutar en raiz pj-admin
 
 ```bash
+cd cd pj-admin
 docker compose build
 docker compose up -d
 ```
