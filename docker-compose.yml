@@ -8,11 +8,9 @@ services:
     container_name: pj-backend
     ports:
       - "8080:8080"
-    # Montamos volumen para persistir SQLite
     volumes:
       - pj_sqlite_data:/data
     environment:
-      # Opcional: si tu app lee SERVER_PORT
       - SERVER_PORT=8080
     restart: unless-stopped
 
@@ -23,8 +21,6 @@ services:
     container_name: pj-frontend
     ports:
       - "5173:80"
-    # El frontend llama al backend por localhost:8080 (navegador).
-    # No necesita depender de backend para funcionar, pero si querés:
     depends_on:
       - backend
     restart: unless-stopped
