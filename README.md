@@ -5,19 +5,19 @@ Permite gestionar edificios, dependencias, empleados y traslados, con frontend e
 
 ## Tecnologías utilizadas:
 
-# Frontend
+### Frontend
 - Vite
 - React 19
 - TypeScript
 - Ant Design (AntD)
 
-# Backend
+### Backend
 - Spring Boot 3
 - Java 21 (JDK)
 - SQLite (embebido, sin instalación adicional)
 - Spring Data JPA
 
-# Requisitos previos
+## Requisitos previos:
 
 Antes de ejecutar el proyecto, asegurarse de tener instalado:
 
