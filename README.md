@@ -78,6 +78,7 @@ npm run dev
 El frontend quedará disponible en:
 http://localhost:5173
 
+---
 
 ### Configuración de entorno
 
@@ -92,6 +93,8 @@ spring.datasource.url=jdbc:sqlite:database.sqlite
 spring.jpa.hibernate.ddl-auto=update
 server.port=8080
 ```
+
+---
 
 ### Ejecución con Docker (opcional)
 
@@ -108,6 +111,8 @@ Una vez levantado, el sistema estará disponible en:
 Frontend: http://localhost:5173
 Backend: http://localhost:8080
 
-###Autor
+---
+
+### Autor
 Proyecto desarrollado por Luciano Julian Calvo Fredes.
 Fecha: 17 Octubre 2025
