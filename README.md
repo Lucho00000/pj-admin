@@ -1,28 +1,33 @@
-# Poder Judicial Admin – Backend (Spring Boot + SQLite)
+# Poder Judicial Admin
 
-# Requisitos
+Sistema web de administración del Poder Judicial, Programador/a de Aplicaciones Informáticas Junior MF8 .  
+Permite gestionar edificios, dependencias, empleados y traslados, con frontend en React y backend en Spring Boot.
+
+# Tecnologías utilizadas
+
+# Frontend
+- Vite
+- React 19
+- TypeScript
+- Ant Design (AntD)
+
+# Backend
+- Spring Boot 3
 - Java 21 (JDK)
-- (Opcional) Maven; si no, usar Maven Wrapper (`mvnw.cmd`)
-- SQLite JDBC viene embebido (no requiere instalar SQLite)
+- SQLite (embebido, sin instalación adicional)
+- Spring Data JPA
 
-# Correr en desarrollo
-```bash
-cd backend
-.\mvnw.cmd spring-boot:run
-# Health check:
-# http://localhost:8080/api/health
+# Requisitos previos
+
+Antes de ejecutar el proyecto, asegurarse de tener instalado:
+
+- **Java 21 (JDK)**
+- **Node.js 18 o superior** 
+- **Git**
+- **Maven**
+- **Docker**
+
+## Estructura del proyecto
 
 
-
-# PJ Admin – Frontend (Vite + React 19 + TS + AntD)
-
-## Requisitos
-- Node 18+ (recomendado 20+)
-
-## Correr
-```bash
-cd frontend
-npm i
-npm run dev
-# abre http://localhost:5173
 
