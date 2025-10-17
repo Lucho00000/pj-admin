@@ -96,12 +96,21 @@ server.port=8080
 
 ---
 
-### Ejecución con Docker (opcional)
+## Ejecución con Docker
 
-El proyecto incluye un archivo docker-compose.yml para levantar ambos servicios simultáneamente:
 ```bash
-docker compose up
+docker compose build
+docker compose up -d
 ```
+
+Frontend: http://localhost:5173
+Backend:  http://localhost:8080   (health: /api/health)
+
+Variables:
+- Frontend: VITE_API_BASE=http://localhost:8080/api
+- Backend:  SQLite persiste en volumen Docker (ruta /data/database.sqlite).
+
+---
 
 Esto iniciará:
 Contenedor backend con Spring Boot y SQLite
