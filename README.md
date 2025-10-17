@@ -112,10 +112,6 @@ Variables:
 
 ---
 
-Esto iniciará:
-Contenedor backend con Spring Boot y SQLite
-Contenedor frontend con React/Vite
-
 Una vez levantado, el sistema estará disponible en:
 Frontend: http://localhost:5173
 Backend: http://localhost:8080
