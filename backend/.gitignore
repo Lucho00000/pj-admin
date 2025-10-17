@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Build / logs extra
+out/
+logs/
+*.log
+hs_err_pid*.log
+
+# Bases de datos locales
+*.sqlite
+*.db
+
+# Propiedades locales opcionales
+application-local.properties
+
